@@ -1,12 +1,16 @@
 export type ProductType =
+  | "Low Coverage"
+  | "Medium Coverage"
+  | "Full Coverage"
   | "Full Coverage"
   | "Low Coverage"
   | "Special Full Coverage"
   | "Super Sale";
+
 export interface IProduct {
-  name:ProductType,
-  sellIn:number,
-  price:number 
+  name: ProductType;
+  sellIn: number;
+  price: number;
 }
 export class Product implements IProduct {
   sellIn: number;
@@ -19,7 +23,7 @@ export class Product implements IProduct {
     this.price = price;
   }
 
-  updatePricePerDay() {
+  updatePrice() {
     console.log("Default update product");
   }
 }

@@ -1,18 +1,49 @@
 import {FullCoverage} from '../Models/Products/FullCoverage';
 import {IProduct} from '../Models/Products/Product';
 
-// const moviesApi: IResource = new MoviesApi()
-const fullCoverageProduct = new FullCoverage('Full Coverage',20,10);
 
-describe('Full Coverge product update price per day', () => {
-  it('should update the price', () => {
+describe('Medium Coverge product update price per day', () => {
+ 
+  it('Day 1 ', () => {
+    const fullCoverageProduct = new FullCoverage(2,0);
 
     const FullCoverageWithUpdatedPrice :IProduct = {
         name:'Full Coverage',
-        sellIn:19,
-        price:9
+        sellIn:1,
+        price:1
     }
-    fullCoverageProduct.updatePricePerDay()
+    fullCoverageProduct.updatePrice()
+
+    expect(FullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
+  })
+
+  it('Day 4', () => {
+    const fullCoverageProduct = new FullCoverage(2,0);
+
+    const FullCoverageWithUpdatedPrice :IProduct = {
+        name:'Full Coverage',
+        sellIn:-2,
+        price:6
+    }
+
+    for(let i=1; i<=4; i++){
+      fullCoverageProduct.updatePrice() 
+    }
+
+    expect(FullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
+  })
+
+  it('Day 27', () => {
+    const fullCoverageProduct = new FullCoverage(2,0);
+
+    const FullCoverageWithUpdatedPrice :IProduct = {
+        name:'Full Coverage',
+        sellIn:-25,
+        price:50
+    }
+    for(let i=1; i<=27; i++){
+      fullCoverageProduct.updatePrice() 
+    }
 
     expect(FullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
   })

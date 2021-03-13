@@ -10,7 +10,8 @@ export class CarInsurance {
 
     updatePrice(){
         for(let product of this.products){
-            product.updatePricePerDay()
+            product.updatePrice()
+            console.log(product)
         }
     }
 }
