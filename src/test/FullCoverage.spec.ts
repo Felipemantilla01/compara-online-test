@@ -7,20 +7,20 @@ describe('Medium Coverge product update price per day', () => {
   it('Day 1 ', () => {
     const fullCoverageProduct = new FullCoverage(2,0);
 
-    const FullCoverageWithUpdatedPrice :IProduct = {
+    const fullCoverageWithUpdatedPrice :IProduct = {
         name:'Full Coverage',
         sellIn:1,
         price:1
     }
     fullCoverageProduct.updatePrice()
 
-    expect(FullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
+    expect(fullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
   })
 
   it('Day 4', () => {
     const fullCoverageProduct = new FullCoverage(2,0);
 
-    const FullCoverageWithUpdatedPrice :IProduct = {
+    const fullCoverageWithUpdatedPrice :IProduct = {
         name:'Full Coverage',
         sellIn:-2,
         price:6
@@ -30,13 +30,13 @@ describe('Medium Coverge product update price per day', () => {
       fullCoverageProduct.updatePrice() 
     }
 
-    expect(FullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
+    expect(fullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
   })
 
   it('Day 27', () => {
     const fullCoverageProduct = new FullCoverage(2,0);
 
-    const FullCoverageWithUpdatedPrice :IProduct = {
+    const fullCoverageWithUpdatedPrice :IProduct = {
         name:'Full Coverage',
         sellIn:-25,
         price:50
@@ -45,6 +45,6 @@ describe('Medium Coverge product update price per day', () => {
       fullCoverageProduct.updatePrice() 
     }
 
-    expect(FullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
+    expect(fullCoverageWithUpdatedPrice).toEqual(fullCoverageProduct)
   })
 })

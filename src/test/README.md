@@ -18,6 +18,8 @@ El precio decrece junto con la fecha de venta, cuando la fecha de venta es menor
 
 ## Medium Coverage
 
+El precio disminuye en 1, si la fecha de venta es menor a 0 disminuye en 2 el precio, y finalmente si el precio llega a 0 se mantiene en 0
+
 | day | sellIn | price | comment                                     | TestCase |
 | --- | ------ | ----- | ------------------------------------------- | -------- |
 | 0   | 10     | 20    | El precio disminuye en 1 por dia            | No       |

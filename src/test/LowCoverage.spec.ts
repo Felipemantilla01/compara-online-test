@@ -4,10 +4,10 @@ import {IProduct} from '../Models/Products/Product';
 
 describe('Low Coverge product update price per day', () => {
  
-  it('Day 3 ', () => {
+  it('Day 2 ', () => {
     const lowCoverageProduct = new LowCoverage(5,7);
 
-    const LowCoverageWithUpdatedPrice :IProduct = {
+    const lowCoverageWithUpdatedPrice :IProduct = {
         name:'Low Coverage',
         sellIn:3,
         price:5
@@ -16,13 +16,13 @@ describe('Low Coverge product update price per day', () => {
       lowCoverageProduct.updatePrice() 
     }
 
-    expect(LowCoverageWithUpdatedPrice).toEqual(lowCoverageProduct)
+    expect(lowCoverageWithUpdatedPrice).toEqual(lowCoverageProduct)
   })
 
   it('Day 5', () => {
     const lowCoverageProduct = new LowCoverage(5,7);
 
-    const LowCoverageWithUpdatedPrice :IProduct = {
+    const lowCoverageWithUpdatedPrice :IProduct = {
         name:'Low Coverage',
         sellIn:0,
         price:2
@@ -31,13 +31,13 @@ describe('Low Coverge product update price per day', () => {
       lowCoverageProduct.updatePrice() 
     }
 
-    expect(LowCoverageWithUpdatedPrice).toEqual(lowCoverageProduct)
+    expect(lowCoverageWithUpdatedPrice).toEqual(lowCoverageProduct)
   })
 
   it('Day 8', () => {
     const lowCoverageProduct = new LowCoverage(5,7);
 
-    const LowCoverageWithUpdatedPrice :IProduct = {
+    const lowCoverageWithUpdatedPrice :IProduct = {
         name:'Low Coverage',
         sellIn:-3,
         price:0
@@ -46,6 +46,6 @@ describe('Low Coverge product update price per day', () => {
       lowCoverageProduct.updatePrice() 
     }
 
-    expect(LowCoverageWithUpdatedPrice).toEqual(lowCoverageProduct)
+    expect(lowCoverageWithUpdatedPrice).toEqual(lowCoverageProduct)
   })
 })
