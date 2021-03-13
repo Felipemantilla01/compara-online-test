@@ -18,20 +18,22 @@ El precio decrece junto con la fecha de venta, cuando la fecha de venta es menor
 
 ## Medium Coverage
 
-| day | sellIn | price | comment | TestCase |
-| --- | ------ | ----- | ------- | -------- |
-| 0   | 10     | 20    |         | No       |
-| 1   | 9      | 19    |         | No       |
-| .   | .      | .     | .       | .        |
-| .   | .      | .     | .       | .        |
-| .   | .      | .     | .       | .        |
-| 2   | 3      | 5     |         | Yes      |
-| 3   | 2      | 4     |         | No       |
-| 4   | 1      | 3     |         | No       |
-| 5   | 0      | 2     |         | Yes      |
-| 6   | -1     | 0     |         | No       |
-| 7   | -2     | 0     |         | No       |
-| 8   | -3     | 0     |         | Yes      |
+| day | sellIn | price | comment                                     | TestCase |
+| --- | ------ | ----- | ------------------------------------------- | -------- |
+| 0   | 10     | 20    | El precio disminuye en 1 por dia            | No       |
+| 1   | 9      | 19    |                                             | No       |
+| .   | .      | .     | .                                           | .        |
+| .   | .      | .     | .                                           | .        |
+| .   | .      | .     | .                                           | .        |
+| 9   | 1      | 11    |                                             | Yes      |
+| 10  | 0      | 10    |                                             | No       |
+| 11  | -1     | 8     | Si la fecha es < 0 el precio disminuye en 2 | Yes      |
+| .   | .      | .     | .                                           | .        |
+| .   | .      | .     | .                                           | .        |
+| .   | .      | .     | .                                           | .        |
+| 14  | -4     | 2     |                                             | No       |
+| 15  | -5     | 0     | Al llegar a cero el precio se mantiene en 0 | No       |
+| 16  | -6     | 0     |                                             | Yes      |
 
 ## Full Coverage
 
