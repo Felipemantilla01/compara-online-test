@@ -1,17 +1,19 @@
 {
-  "name": "typescript_jest",
+  "name": "compara-online-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is based on TypeScript for better manage of the code and manipulation of data inside the project, this improve the performance and reduce the posibility of errors in code, So if you want to run the project with JavaScript you have to compile the src folder.",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
     "start": "node dist/index.js",
+    "start after-30-days": "node dist/index.js --30-days",
     "dev": "ts-node src/index.ts ",
     "test": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "after-30-days": "ts-node src/index.ts --30-days"
   },
   "keywords": [],
-  "author": "",
+  "author": "Felipe Mantilla",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.20",

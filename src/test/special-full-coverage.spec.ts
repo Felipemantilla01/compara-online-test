@@ -1,9 +1,12 @@
-import { SpecialFullCoverage } from "../Models/Products/SpecialFullCoverage";
-import { IProduct } from "../Models/Products/Product";
+import { IProduct, Product } from "../Models/Product";
 
 describe("Special Full Coverage product update price per day", () => {
   it("Day 1 ", () => {
-    const specialFullCoverageProduct = new SpecialFullCoverage(11, 30);
+    const specialFullCoverageProduct = new Product(
+      "Special Full Coverage",
+      11,
+      30
+    );
 
     const specialFullCoverageWithUpdatedPrice: IProduct = {
       name: "Special Full Coverage",
@@ -18,7 +21,11 @@ describe("Special Full Coverage product update price per day", () => {
   });
 
   it("Day 3", () => {
-    const specialFullCoverageProduct = new SpecialFullCoverage(11, 30);
+    const specialFullCoverageProduct = new Product(
+      "Special Full Coverage",
+      11,
+      30
+    );
 
     const specialFullCoverageWithUpdatedPrice: IProduct = {
       name: "Special Full Coverage",
@@ -36,7 +43,11 @@ describe("Special Full Coverage product update price per day", () => {
   });
 
   it("Day 8", () => {
-    const specialFullCoverageProduct = new SpecialFullCoverage(11, 30);
+    const specialFullCoverageProduct = new Product(
+      "Special Full Coverage",
+      11,
+      30
+    );
 
     const specialFullCoverageWithUpdatedPrice: IProduct = {
       name: "Special Full Coverage",
@@ -53,7 +64,11 @@ describe("Special Full Coverage product update price per day", () => {
   });
 
   it("Day 11", () => {
-    const specialFullCoverageProduct = new SpecialFullCoverage(11, 30);
+    const specialFullCoverageProduct = new Product(
+      "Special Full Coverage",
+      11,
+      30
+    );
 
     const specialFullCoverageWithUpdatedPrice: IProduct = {
       name: "Special Full Coverage",
@@ -70,7 +85,11 @@ describe("Special Full Coverage product update price per day", () => {
   });
 
   it("Day 12", () => {
-    const specialFullCoverageProduct = new SpecialFullCoverage(11, 30);
+    const specialFullCoverageProduct = new Product(
+      "Special Full Coverage",
+      11,
+      30
+    );
 
     const specialFullCoverageWithUpdatedPrice: IProduct = {
       name: "Special Full Coverage",

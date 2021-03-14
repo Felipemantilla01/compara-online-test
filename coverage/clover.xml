@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1615711327245" clover="3.2.0">
+  <project timestamp="1615711327246" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="30" coveredconditionals="30" methods="6" coveredmethods="6" elements="75" coveredelements="75" complexity="0" loc="39" ncloc="39" packages="1" files="2" classes="2"/>
+    <file name="CarInsurance.ts" path="/home/felipemantilla/Documents/Work/ComparaOnline/typescript_jest/src/Models/CarInsurance.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="270" type="stmt"/>
+      <line num="12" count="270" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
+    <file name="Product.ts" path="/home/felipemantilla/Documents/Work/ComparaOnline/typescript_jest/src/Models/Product.ts">
+      <metrics statements="33" coveredstatements="33" conditionals="30" coveredconditionals="30" methods="3" coveredmethods="3"/>
+      <line num="14" count="7" type="stmt"/>
+      <line num="20" count="38" type="stmt"/>
+      <line num="21" count="38" type="stmt"/>
+      <line num="22" count="38" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+      <line num="26" count="446" type="stmt"/>
+      <line num="28" count="45" type="stmt"/>
+      <line num="29" count="45" type="stmt"/>
+      <line num="30" count="45" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="45" type="stmt"/>
+      <line num="33" count="66" type="stmt"/>
+      <line num="34" count="66" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="66" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="66" type="stmt"/>
+      <line num="38" count="62" type="stmt"/>
+      <line num="39" count="62" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="62" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="62" type="stmt"/>
+      <line num="43" count="96" type="stmt"/>
+      <line num="44" count="96" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="96" type="stmt"/>
+      <line num="47" count="125" type="stmt"/>
+      <line num="48" count="125" type="stmt"/>
+      <line num="49" count="125" type="cond" truecount="2" falsecount="0"/>
+      <line num="50" count="125" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="125" type="cond" truecount="2" falsecount="0"/>
+      <line num="52" count="125" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="125" type="stmt"/>
+      <line num="55" count="52" type="stmt"/>
+      <line num="56" count="52" type="cond" truecount="2" falsecount="0"/>
+      <line num="57" count="52" type="cond" truecount="2" falsecount="0"/>
+      <line num="58" count="52" type="stmt"/>
+      <line num="61" count="7" type="stmt"/>
+    </file>
+  </project>
+</coverage>
