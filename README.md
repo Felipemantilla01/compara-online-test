@@ -14,6 +14,7 @@ You have to install all dependencies with **npm install** then run one of the sc
 - **npm run coverage** this command runs the coverage report with Jest, and return a coverage folder in the project root
 - **npm run test** this command run the unit test created with Jest in the folder test
 - **npm run after-30-days** this command runs a script who generates a .txt output
+- **npm start after-30-days** this command runs a script who generates a .txt output with the dist project
 
 ## Test with JEST
 

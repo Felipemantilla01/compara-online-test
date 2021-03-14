@@ -6,9 +6,11 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "start": "node dist/index.js",
+    "start after-30-days":"node dist/index.js --30-days",
     "dev": "ts-node src/index.ts ",
     "test": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "after-30-days":"ts-node src/index.ts --30-days"
   },
   "keywords": [],
   "author": "",
