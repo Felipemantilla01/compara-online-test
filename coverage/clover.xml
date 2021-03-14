@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615711327245" clover="3.2.0">
-  <project timestamp="1615711327246" name="All files">
+<coverage generated="1615717453374" clover="3.2.0">
+  <project timestamp="1615717453374" name="All files">
     <metrics statements="39" coveredstatements="39" conditionals="30" coveredconditionals="30" methods="6" coveredmethods="6" elements="75" coveredelements="75" complexity="0" loc="39" ncloc="39" packages="1" files="2" classes="2"/>
     <file name="CarInsurance.ts" path="/home/felipemantilla/Documents/Work/ComparaOnline/typescript_jest/src/Models/CarInsurance.ts">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
