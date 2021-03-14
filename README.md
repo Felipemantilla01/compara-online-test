@@ -107,20 +107,20 @@ when the time is less than 0 the price falls to 0.
 
 The price decreases twice as fast as normal products
 
-| day | sellIn | price | comment | TestCase |
-| --- | ------ | ----- | ------- | -------- |
-| 0   | 6      | 30    |         | No       |
-| 1   | 5      | 28    |         | No       |
-| 2   | 4      | 26    |         | No       |
-| 3   | 3      | 24    |         | Yes      |
-| 4   | 2      | 22    |         | No       |
-| 5   | 1      | 20    |         | No       |
-| 6   | 0      | 18    |         | No       |
-| 7   | -1     | 14    |         | No       |
-| 8   | -2     | 10    |         | Yes      |
-| .   | .      | .     | .       | .        |
-| .   | .      | .     | .       | .        |
-| 11  | -5     | 0     |         | Yes      |
+| day | sellIn | price | comment                                                 | TestCase |
+| --- | ------ | ----- | ------------------------------------------------------- | -------- |
+| 0   | 6      | 30    |                                                         | No       |
+| 1   | 5      | 28    |                                                         | No       |
+| 2   | 4      | 26    |                                                         | No       |
+| 3   | 3      | 24    | the price decreases by 2 per day                        | Yes      |
+| 4   | 2      | 22    |                                                         | No       |
+| 5   | 1      | 20    |                                                         | No       |
+| 6   | 0      | 18    |                                                         | No       |
+| 7   | -1     | 14    |                                                         | No       |
+| 8   | -2     | 10    | When the date expires, the price decreases by 4 per day | Yes      |
+| .   | .      | .     | .                                                       | .        |
+| .   | .      | .     | .                                                       | .        |
+| 11  | -5     | 0     | Upon reaching zero the price remains at 0               | Yes      |
 
 ## Evaluation rules
 
