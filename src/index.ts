@@ -13,7 +13,7 @@ let ci = new CarInsurance([
   new Product("Super Sale", 3, 6),
 ]);
 
-let x = 3;
+let x = 30;
 for (let i = 1; i <= x; i++) {
   console.log("day: ", i);
   ci.updatePrice();

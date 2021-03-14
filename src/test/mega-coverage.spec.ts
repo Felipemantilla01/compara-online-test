@@ -17,7 +17,7 @@ describe("Mega Coverage product update price per day", () => {
   });
 
   it("Day 11", () => {
-    const megaCoverageProduct = new Product("Mega Coverage", 0, 80);
+    const megaCoverageProduct = new Product("Mega Coverage", 10, 80);
 
     const megaCoverageWithUpdatedPrice: IProduct = {
       name: "Mega Coverage",
