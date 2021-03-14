@@ -1,4 +1,4 @@
-import { Product } from "./Products/Product";
+import { Product } from "./Product";
 
 export class CarInsurance {
 

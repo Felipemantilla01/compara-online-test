@@ -1,5 +1,5 @@
 import {SuperSale} from '../Models/Products/SuperSale';
-import {IProduct} from '../Models/Products/Product';
+import {IProduct} from '../Models/Product';
 
 
 describe('Super Sale product update price per day', () => {
