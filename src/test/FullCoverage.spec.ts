@@ -2,7 +2,7 @@ import {FullCoverage} from '../Models/Products/FullCoverage';
 import {IProduct} from '../Models/Products/Product';
 
 
-describe('Medium Coverge product update price per day', () => {
+describe('Full Coverage product update price per day', () => {
  
   it('Day 1 ', () => {
     const fullCoverageProduct = new FullCoverage(2,0);

@@ -2,7 +2,7 @@ import {MediumCoverage} from '../Models/Products/MediumCoverage';
 import {IProduct} from '../Models/Products/Product';
 
 
-describe('Medium Coverge product update price per day', () => {
+describe('Medium Coverage product update price per day', () => {
  
   it('Day 9 ', () => {
     const mediumCoverageProduct = new MediumCoverage(10,20);

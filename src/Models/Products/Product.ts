@@ -2,8 +2,7 @@ export type ProductType =
   | "Low Coverage"
   | "Medium Coverage"
   | "Full Coverage"
-  | "Full Coverage"
-  | "Low Coverage"
+  | "Mega Coverage"
   | "Special Full Coverage"
   | "Super Sale";
 
@@ -23,7 +22,5 @@ export class Product implements IProduct {
     this.price = price;
   }
 
-  updatePrice() {
-    console.log("Default update product");
-  }
+  updatePrice() {}
 }
