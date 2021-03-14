@@ -1,7 +1,6 @@
 import { CarInsurance } from "./Models/CarInsurance";
 import { Product } from "./Models/Product";
 
-
 let ci = new CarInsurance([
   new Product("Medium Coverage", 10, 20),
   new Product("Full Coverage", 2, 0),
